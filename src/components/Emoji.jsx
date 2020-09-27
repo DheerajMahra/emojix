@@ -11,7 +11,7 @@ export const StyledEmoji = styled.span`
 	border-radius: 50%;
 	background: ${({ emoji }) => {
 		switch (emoji) {
-			case '👍':
+			case '👏':
 				return '#ffc3348f';
 			case '💩':
 				return '#92542b8f';
