@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "styled-components": "^5.2.0"
   }
 }
