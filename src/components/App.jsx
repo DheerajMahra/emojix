@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import background from '../assets/back.jpg';
 import Emoji from './Emoji';
 import EmojiBubble from './EmojiBubble';
+import Github from './Github';
 
 const StyledApp = styled.div`
 	min-height: 100vh;
@@ -42,6 +43,7 @@ function App() {
 		<>
 			<StyledApp>{emojiMarkup}</StyledApp>
 			{emojiBubbleMarkup}
+			<Github />
 		</>
 	);
 }
