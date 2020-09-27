@@ -14,7 +14,7 @@ const StyledApp = styled.div`
 `;
 
 function App() {
-	const emojiList = ['👍', '💩', '😂', '😡', '👽'];
+	const emojiList = ['👏', '💩', '😂', '😡', '👽'];
 
 	const [emojiQueue, setEmojiQueue] = useState([]);
 

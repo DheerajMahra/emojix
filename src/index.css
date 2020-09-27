@@ -15,6 +15,12 @@ html {
 	font-size: 62.5%;
 }
 
+@media (max-width: 425px) {
+	html {
+		font-size: 30%;
+	}
+}
+
 body {
 	box-sizing: border-box;
 	font-weight: 400;
